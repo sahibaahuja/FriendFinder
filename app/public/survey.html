@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .form-control {
+            width: 900px;
+            margin: 10px;
+        }
+
+        .btnsubmit {
+            width: 900px;
+            margin: 10px;
+            padding: 10px;
+            background-color: lightskyblue;
+        }
+
+        hr {
+            display: block;
+            margin-top: 0.3em;
+            margin-bottom: 0.3em;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <div class="form-group">
+            <h1>Survey Questions</h1>
+            <hr>
+            <br>
+            <h3>About You</h3>
+            <label for="name">Name (Required)</label>
+            <input type="text" class="form-control" id="name" aria-describedby="name">
+        </div>
+        <div class="form-group">
+            <label for="photo">Link to Photo Image (Required)</label>
+            <input type="text" class="form-control" id="photo">
+        </div>
+
+        <div class="div2">
+            <form id=Form2 name="Form2">
+                <p>Q1: You believe we will have world peace one day. <span id="Q1"></span> </P>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
+                    </label>
+                </div>
+
+                <P>Q2: Your more spirtual vs religous. <span id="Q2"></span></P>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
+                    </label>
+                </div>
+
+                <P>Q3: Your a shopholic. <span id="Q3"></span></P>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
+                    </label>
+                </div>
+                <P>Q4: You rarely get extremely angry. <span id="Q4"></span></P>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
+                    </label>
+                </div>
+                <P>Q5: You feel more tired after 8 hours of sleep. <span id="Q5"></span></P>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
+                    </label>
+                </div>
+                <br>
+            </form>
+        </div>
+
+        <br>
+        <button type="submit" class="btnsubmit">Submit</button>
+        <hr>
+    </form>
+    <footer>
+            <div class="container">
+              <a href="/api/friends">API Friends List</a>
+              <span>|</span>
+              <a href="https://github.com/sahibaahuja/FriendFinder">GitHub Repo</a>
+            </div>
+
+</body>
