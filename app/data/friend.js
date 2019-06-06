@@ -2,7 +2,7 @@ var friends = [
 {
     "name": "shelly",
     "photo" : "",
-    "scores" : [ 5,1,4,4,5,1,2,5,4,1]
+    "scores" :  5
 
 }
 ,
@@ -10,7 +10,7 @@ var friends = [
 {
     "name": "sahib",
     "photo" : "",
-    "scores" : [ 5,1,4,4,5,1,2,5,4,1]
+    "scores" :  8
 
 }
 
@@ -19,7 +19,7 @@ var friends = [
 {
     "name": "apaar",
     "photo" : "",
-    "scores" : [ 5,1,4,4,5,1,2,5,4,1]
+    "scores" : 19
 
 }
 

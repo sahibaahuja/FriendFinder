@@ -33,7 +33,7 @@
 
 <body>
 
-    <form>
+    <form action="/api/friends" method="POST">
         <div class="form-group">
             <h1>Survey Questions</h1>
             <hr>
@@ -48,101 +48,66 @@
         </div>
 
         <div class="div2">
-            <form id=Form2 name="Form2">
-                <p>Q1: You believe we will have world peace one day. <span id="Q1"></span> </P>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
-                    </label>
-                </div>
 
-                <P>Q2: Your more spirtual vs religous. <span id="Q2"></span></P>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
-                    </label>
-                </div>
+            <p>Q1: You believe we will have world peace one day. </P>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="Q1" name="Q1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
 
-                <P>Q3: Your a shopholic. <span id="Q3"></span></P>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
-                    </label>
-                </div>
-                <P>Q4: You rarely get extremely angry. <span id="Q4"></span></P>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
-                    </label>
-                </div>
-                <P>Q5: You feel more tired after 8 hours of sleep. <span id="Q5"></span></P>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option1" autocomplete="off"> 1
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option2" autocomplete="off"> 2
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option3" autocomplete="off"> 3
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option4" autocomplete="off"> 4
-                    </label>
-                    <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option5" autocomplete="off"> 5
-                    </label>
-                </div>
-                <br>
-            </form>
+            <P>Q2: Your more spirtual vs religous. </P>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="Q2" name="Q2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <P>Q3: Your a shopholic.</P>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="Q3" name="Q3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <P>Q4: You rarely get extremely angry.</P>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="Q4" name="Q4">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <P>Q5: You feel more tired after 8 hours of sleep. </P>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="Q5" name="Q5">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <br>
+
         </div>
 
         <br>
@@ -150,10 +115,38 @@
         <hr>
     </form>
     <footer>
-            <div class="container">
-              <a href="/api/friends">API Friends List</a>
-              <span>|</span>
-              <a href="https://github.com/sahibaahuja/FriendFinder">GitHub Repo</a>
-            </div>
+        <div class="container">
+            <a href="/api/friends">API Friends List</a>
+            <span>|</span>
+            <a href="https://github.com/sahibaahuja/FriendFinder">GitHub Repo</a>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script>  
+        $(".btnsubmit").on("click", function(event){ 
+            event.preventDefault()
+            var answers = 0 
+            var answer1 = parseInt($("#Q1").val())
+            answers+= answer1
+            var answer2 = parseInt($("#Q2").val())
+            answers+= answer2
+            var answer3 = parseInt($("#Q3").val())
+            answers+= answer3
+            var answer4 = parseInt($("#Q4").val())
+            answers+= answer4
+            var answer5 = parseInt($("#Q5").val())
+            answers+= answer5
+            console.log(answers)
+    $.ajax({
+        url:"/api/friends", 
+        type: "POST",
+        data: {total: answers},
+        success: function(data) {
+            alert("YOU HAVE BEEN MATCHED WITH " + data.bestMatch )
 
+        }
+        })})
+      </script>
 </body>
+
+</html>
